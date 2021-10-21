@@ -1,13 +1,10 @@
 import React from 'react';
-import './App.css';
-import Profile from './PortfolioContainer/Home/Profile'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Profile />
-    </div>
+    <>
+      <h1>Welcome to react portfolio Project</h1>
+      <h3>-Shaif Arfan</h3>
+    </>
   );
 }
-
-export default App;
