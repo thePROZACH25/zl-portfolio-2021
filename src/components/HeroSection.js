@@ -4,10 +4,16 @@ import SocialMediaArrow from '../assets/images/social-media-arrow.svg'
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg'
 import PText from './PText'
 import Button from './Button'
+import styled from 'styled-components'
+
+const HeroStyles = styled.div`
+background-color: red;
+`;
+
 
 export default function HeroSection() {
     return (
-        <div>
+        <HeroStyles>
             <div className="container">
                 <h1 className="hero__heading">
                     <span>Hello, This is </span>
@@ -53,6 +59,6 @@ export default function HeroSection() {
                     <img src={ScrollDownArrow} alt="" />
                 </div>
             </div>
-        </div>
+        </HeroStyles>
     )
 }

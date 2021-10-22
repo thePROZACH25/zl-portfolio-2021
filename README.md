@@ -1,5 +1,5 @@
 # React Portfolio website
 
-Designed by - [shaif Arfan](http://github.com/shaifarfan) | [web cifar](http://webcifar.com)
+Designed by - [Zachary Ledford](http://github.com/thePROZACH25) | [LinkedIn](http://linkedin.com/in/zacharyledford)
 
 ![](./ReadMeImages/ReadMeBanner.png)
