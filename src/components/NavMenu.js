@@ -1,7 +1,7 @@
-import { React, useState } from "react";
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
-import { MdClose, MdMenu } from "react-icons/md";
+import { React, useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
+import { MdClose, MdMenu } from 'react-icons/md';
 
 const NavMenuStyles = styled.div`
 positions: fixed;
@@ -105,9 +105,9 @@ export default function NavMenu() {
         onKeyDown={() => setShowNav(!showNav)}
         tabIndex={0}
       >
-        <MdMenu></MdMenu>
+        <MdMenu />
       </div>
-      <ul className={!showNav ? "navItems hide-item" : "navItems"}>
+      <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
         <div
           className="closeNavIcon"
           onClick={() => setShowNav(!showNav)}
@@ -115,7 +115,7 @@ export default function NavMenu() {
           onKeyDown={() => setShowNav(!showNav)}
           tabIndex={0}
         >
-          <MdClose></MdClose>
+          <MdClose />
         </div>
         <li>
           <NavLink
