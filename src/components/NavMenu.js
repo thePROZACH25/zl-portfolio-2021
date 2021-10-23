@@ -1,7 +1,7 @@
-import { React, useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import styled from 'styled-components';
-import { MdClose, MdMenu } from 'react-icons/md';
+import { React, useState } from "react";
+import { NavLink } from "react-router-dom";
+import styled from "styled-components";
+import { MdClose, MdMenu } from "react-icons/md";
 
 const NavMenuStyles = styled.div`
 positions: fixed;
@@ -19,7 +19,7 @@ ul{
     li{
         display: inline-block;
         border-radius: 8px;
-        transition: .3s ease background-color;
+        transition: 0.3s ease background-color;
         &:hover {
             background-color: var(--deep-dark);
             
@@ -30,7 +30,7 @@ ul{
         font-family: 'RobotoMono Regular';
         Padding: 1rem 2rem;
         font-size: 2rem;
-        color: var(--gary-1);
+        color: var(--gray-1);
         outline: none;
     }
 
@@ -46,6 +46,7 @@ ul{
     cursor: pointer;
     display: none;
     outline: none;
+    z-index: 98;
     *{
         pointer-events: none;
     }
@@ -63,7 +64,7 @@ ul{
     }
     .navItems{
         --top: 1rem;
-        transitions: .3s ease transform;
+        transitions: 0.3s ease transform;
         background-color: var(--deep-dark);
         padding: 2rem;
         width: 90%;
@@ -72,6 +73,7 @@ ul{
         position: absolute;
         right: 1rem;
         top: var(--top);
+        z-index: 99;
         .closeNavIcon {
             display: block;
             width: 3rem;
@@ -107,7 +109,7 @@ export default function NavMenu() {
       >
         <MdMenu />
       </div>
-      <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
+      <ul className={!showNav ? "navItems hide-item" : "navItems"}>
         <div
           className="closeNavIcon"
           onClick={() => setShowNav(!showNav)}

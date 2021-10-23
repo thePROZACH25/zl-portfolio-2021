@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/DE640214-378F-4B20-BAE7-6BD2D436E181_1_105_c.jpeg';
+import HeroImg from '../assets/images/DE640214-378F-4B20-BAE7-6BD2D436E181_1_201_a.jpeg';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
@@ -40,6 +40,9 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
+    p{
+      color: var(--white);
+    }
   }
   .hero__social,
   .hero__scrollDown {
@@ -77,6 +80,11 @@ const HeroStyles = styled.div`
       max-height: 70px;
     }
   }
+  .hero__social__indicator{
+    p{
+      color: white;
+    }
+  }
   .hero__social__text {
     ul {
       li {
@@ -87,6 +95,7 @@ const HeroStyles = styled.div`
           transform: rotate(90deg);
           letter-spacing: 5px;
           margin-bottom: 2rem;
+          color: var(--white);
         }
       }
     }
@@ -107,6 +116,9 @@ const HeroStyles = styled.div`
     }
     .hero__info{
       margin-top: 3rem;
+      p{
+        color:var(--gray-1);
+      }
     }
     .hero__social{
       left: 0px;
@@ -149,17 +161,18 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is </span>
-            <span className="hero__name">Zach Ledford</span>
+            <span>Frontend Developer / UI Developer</span>
+            <span className="hero__name">Zachary Ledford</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="Zachary Ledford Profile" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
+              <p>
+              I am a frontend web designer and UI developer. I love to design and make new web experiences for the
               people.
+              </p>
             </PText>
             <Button
               btnLink="/projects"
