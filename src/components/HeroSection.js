@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import HeroImg from '../assets/images/DE640214-378F-4B20-BAE7-6BD2D436E181_1_201_a.jpeg';
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
-import PText from './PText';
-import Button from './Button';
+import React from "react";
+import styled from "styled-components";
+import HeroImg from "../assets/images/DE640214-378F-4B20-BAE7-6BD2D436E181_1_201_a.jpeg";
+import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
+import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
+import PText from "./PText";
+import Button from "./Button";
 
 const HeroStyles = styled.div`
   .hero {
@@ -26,7 +26,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
+      font-family: "Montserrat SemiBold";
       font-size: 7rem;
       color: var(--white);
     }
@@ -80,8 +80,8 @@ const HeroStyles = styled.div`
       max-height: 70px;
     }
   }
-  .hero__social__indicator{
-    p{
+  .hero__social__indicator {
+    p {
       color: white;
     }
   }
@@ -100,43 +100,43 @@ const HeroStyles = styled.div`
       }
     }
   }
-  @media only screen and (max-width: 768px){
-    .hero{
+  @media only screen and (max-width: 768px) {
+    .hero {
       min-height: 750px;
     }
-    .hero__heading{
+    .hero__heading {
       font-size: 1.4rem;
       margin-bottom: -3rem;
-      .hero__name{
+      .hero__name {
         font-size: 4.5rem;
       }
     }
-    .hero__img{
+    .hero__img {
       height: 300px;
     }
-    .hero__info{
+    .hero__info {
       margin-top: 3rem;
-      p{
-        color:var(--gray-1);
+      p {
+        color: var(--gray-1);
       }
     }
-    .hero__social{
+    .hero__social {
       left: 0px;
       bottom: 15%;
       width: 20px;
       .hero__social__indicator {
         width: 20px;
-        p{
+        p {
           font-size: 1.2rem;
         }
-        img{
+        img {
           max-height: 22px;
         }
       }
-      .hero__social__text{
-        ul{
-          li{
-            a{
+      .hero__social__text {
+        ul {
+          li {
+            a {
               font-size: 1.2rem;
               margin-bottom: 1rem;
             }
@@ -144,12 +144,12 @@ const HeroStyles = styled.div`
         }
       }
     }
-    .hero__scrollDown{
-      right:0;
+    .hero__scrollDown {
+      right: 0;
       width: 20px;
       gap: 1rem;
-      p{
-        font-size: 1.3rem
+      p {
+        font-size: 1.3rem;
       }
     }
   }
@@ -169,10 +169,8 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              <p>
-              I am a frontend web designer and UI developer. I love to design and make new web experiences for the
-              people.
-              </p>
+              I am a frontend web designer and UI developer. I love to design
+              and make new web experiences for the people.
             </PText>
             <Button
               btnLink="/projects"
