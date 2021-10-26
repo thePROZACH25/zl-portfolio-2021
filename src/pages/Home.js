@@ -4,6 +4,7 @@ import HeroSection from "../components/HeroSection";
 import ServiceSection from "../components/ServiceSection";
 import ProjectSection from "../components/ProjectSection";
 import TestimonialSection from "../components/TestimonialSection";
+import ContactBanner from "../components/ContactBanner";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ServiceSection />
       <ProjectSection />
       <TestimonialSection />
+      <ContactBanner />
     </div>
   );
 }
