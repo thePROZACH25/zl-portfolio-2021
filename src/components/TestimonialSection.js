@@ -101,7 +101,7 @@ export default function TestimonialSection() {
     <TestimonialSectionStyles>
       <div className="container">
         <SectionTitle
-          header="Testimonials"
+          heading="Testimonials"
           subheading="See what our clients say about us"
         />
         <div className="testimonial__wrapper">
