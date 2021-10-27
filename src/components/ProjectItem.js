@@ -10,7 +10,7 @@ const ProjectItemStyles = styled.div`
     overflow: hidden;
     border-radius: 12px;
     display: inline-block;
-    border: 3px solid var(--sandy);
+    border: 3px solid var(--deep-dark);
     img {
       height: 100%;
     }
