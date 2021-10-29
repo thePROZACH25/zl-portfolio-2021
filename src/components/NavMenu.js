@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { MdClose, MdMenu } from "react-icons/md";
 
 const NavMenuStyles = styled.div`
-positions: fixed;
+position: fixed;
 z-index: 100;
 top: 0;
 left: 0;

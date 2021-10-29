@@ -90,7 +90,7 @@ export default function About() {
                 to design stuff with my unique point of view. I also love to
                 create things that can be useful to others.
                 <br /> <br />
-                I started coding since I was in high school. Coding is also an
+                I started coding since I was in high school. Coding is an
                 art for me. I love it and now I have the opportunity to design
                 along with the coding. I find it really interesting and I
                 enjoyed the process a lot.
