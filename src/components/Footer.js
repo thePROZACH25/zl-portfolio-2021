@@ -7,6 +7,7 @@ const FooterStyles = styled.div`
   padding-top: 10rem;
   padding-bottom: 4rem;
   background-color: var(--deep-dark);
+  border-top: 1px solid var(--sandy);
   .container {
     display: flex;
     gap: 3rem;

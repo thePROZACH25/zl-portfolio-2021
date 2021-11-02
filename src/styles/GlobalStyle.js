@@ -51,7 +51,7 @@ const GlobalStyles = createGlobalStyle`
       z-index: 101;
       background: var(--deep-dark);
       .scrollbar-thumb-y {
-        background: var(--gray-1);
+        background: var(--sandy);
       }
     }
   }

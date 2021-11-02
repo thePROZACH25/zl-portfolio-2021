@@ -26,7 +26,7 @@ const AboutPageStyles = styled.div`
     span {
       background-color: var(--deep-dark);
       padding: 0.5rem;
-      border: 2px solid var(--sandy);
+      border: 2px solid var(--gray-1);
       border-radius: 8px;
     }
   }
@@ -42,7 +42,7 @@ const AboutPageStyles = styled.div`
   }
   .right {
     img {
-      border: 2px solid var(--sandy);
+      border: 2px solid var(--gray-1);
     }
   }
   .about__info__items {

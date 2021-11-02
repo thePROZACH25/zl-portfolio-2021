@@ -22,7 +22,7 @@ ul{
         transition: 0.3s ease background-color;
         &:hover {
             background-color: var(--deep-dark);
-            
+            border: var(--sandy) solid 1px;
         }
     }
     a{
@@ -66,6 +66,7 @@ ul{
         --top: 1rem;
         transitions: 0.3s ease transform;
         background-color: var(--deep-dark);
+        opacity: 95%;
         padding: 2rem;
         width: 90%;
         max-width: 300px;

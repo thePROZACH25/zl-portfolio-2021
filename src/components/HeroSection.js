@@ -36,7 +36,7 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--sandy);
+    border: 2px solid var(--gray-1);
   }
   .hero__info {
     margin-top: -18rem;
@@ -67,6 +67,7 @@ const HeroStyles = styled.div`
       transform: translateY(-70px) rotate(90deg);
       letter-spacing: 0.7rem;
       text-transform: uppercase;
+      color: var(--sandy);
     }
     img {
       max-height: 45px;
@@ -82,7 +83,7 @@ const HeroStyles = styled.div`
   }
   .hero__social__indicator {
     p {
-      color: white;
+      color: var(--sandy);
     }
   }
   .hero__social__text {
@@ -95,7 +96,7 @@ const HeroStyles = styled.div`
           transform: rotate(90deg);
           letter-spacing: 5px;
           margin-bottom: 2rem;
-          color: var(--white);
+          color: var(--sandy);
         }
       }
     }
