@@ -53,9 +53,11 @@ export default function ContactForm() {
       )
       .then(
         (result) => {
+          alert("You Message Has Been Sent. Thank You!")
           console.log("You got mail", result.text);
         },
         (error) => {
+          alert('Message did not send. Please try again.')
           console.log(error.text);
         }
       );
