@@ -40,7 +40,7 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
-    p{
+    p {
       color: var(--white);
     }
   }
@@ -187,9 +187,19 @@ export default function HeroSection() {
             <div className="hero__social__text">
               <ul>
                 <li>
+                  {/* Instagram Link */}
+                  <a
+                    href="https://www.instagram.com/theprozach/"
+                    target="_blank"
+                    rel="noreffer"
+                  >
+                    IG
+                  </a>
+                </li>
+                <li>
                   {/* GitHub Link */}
                   <a
-                    href="github.com/thePROZACH25"
+                    href="https://github.com/thePROZACH25"
                     target="_blank"
                     rel="noreffer"
                   >
@@ -197,15 +207,9 @@ export default function HeroSection() {
                   </a>
                 </li>
                 <li>
-                  {/* Twitter Link */}
-                  <a href="#" target="_blank" rel="noreffer">
-                    TW
-                  </a>
-                </li>
-                <li>
                   {/* LinkedIn Link */}
                   <a
-                    href="linkedin.com/in/zacharyledford"
+                    href="https://linkedin.com/in/zacharyledford"
                     target="_blank"
                     rel="noreffer"
                   >

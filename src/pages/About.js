@@ -26,7 +26,7 @@ const AboutPageStyles = styled.div`
     span {
       background-color: var(--deep-dark);
       padding: 0.5rem;
-      border: 2px solid var(--gray-1);
+      border: 2px solid var(--sandy);
       border-radius: 8px;
     }
   }
@@ -85,24 +85,24 @@ export default function About() {
             <h2 className="about__heading">A Frontend Web Developer</h2>
             <div className="about__info">
               <PText>
-                I am from Jefferson City, Tennessee. A place of beauty and
-                nature. Since my childhood, i love art and design. I always try
-                to design stuff with my unique point of view. I also love to
-                create things that can be useful to others.
+                I am from Jefferson City, Tennessee. A place of beauty, nature
+                and small town charm. Since my childhood, I've loved art and
+                design. I always tried to design stuff with my unique point of
+                view. I also love to create things that can be useful to others.
                 <br /> <br />
-                I started coding since I was in high school. Coding is an
-                art for me. I love it and now I have the opportunity to design
-                along with the coding. I find it really interesting and I
-                enjoyed the process a lot.
+                I started coding later in life as a career change but coding has
+                now became an art for me. I love it and now I have the
+                opportunity to design along with the coding. I find it really
+                interesting and I enjoyed the process a lot.
                 <br />
                 <br />
                 My vision is to make the world a better place. Now almost
                 everything is becoming better than ever. It is time for us to
-                create more good stuff that helps the world to become a better
-                place.
+                create more good products that helps the world to become a
+                better place.
               </PText>
             </div>
-            <Button btnText="Download Resume" btnLink="#" />
+            <Button btnText="Download Resume" btnLink='#' />
           </div>
           <div className="right">
             <img src={AboutImg} alt="Zach Ledford Img" />
@@ -115,17 +115,32 @@ export default function About() {
             <h1 className="about__info__heading">My skills</h1>
             <AboutInfoItem
               title="Languages"
-              items={[
-                "HTML5", "CSS3", "Javascript", "JQuery", "Java"
-              ]}
+              items={["HTML5", "CSS3", "Javascript", "JQuery", "Java"]}
             />
             <AboutInfoItem
               title="Web Frameworks"
-              items={['React', 'BootStrap', 'Material.UI', 'Handlebars', 'Express', 'Node']}
+              items={[
+                "React",
+                "BootStrap",
+                "Material.UI",
+                "Handlebars",
+                "Express",
+                "Node",
+              ]}
             />
             <AboutInfoItem
               title="Other Skills"
-              items={['VS Code', 'Figma', 'SQL', 'Git/GitHub','Mongo', 'API’s', 'SQL', 'FireBase', 'Stripe']}
+              items={[
+                "VS Code",
+                "Figma",
+                "SQL",
+                "Git/GitHub",
+                "Mongo",
+                "API’s",
+                "SQL",
+                "FireBase",
+                "Stripe",
+              ]}
             />
           </div>
           {/* Schools */}
@@ -160,12 +175,14 @@ export default function About() {
             />
             <AboutInfoItem
               title="2008-2014"
-              items={["TN Smokies Baseball Stadium | Food & Beverage Merchandiser"]}
+              items={[
+                "TN Smokies Baseball Stadium | Food & Beverage Merchandiser",
+              ]}
             />
           </div>
         </div>
       </div>
-      <ContactBanner/>
+      <ContactBanner />
     </AboutPageStyles>
   );
 }
